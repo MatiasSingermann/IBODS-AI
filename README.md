@@ -2,7 +2,7 @@
 
 ## Funcionamiento
 
-El funcionamiento de este modelo de inteligencia artificial se basa en el modelo previamente creado `yolov5`. Este modelo cuenta con gran una gran rapidez y eficiencia en el procesado de datos, al igual que una destacable versatilidad para poder detectar distintos tipos de objetos.
+El funcionamiento de este modelo de inteligencia artificial se basa en el modelo previamente creado `yolov5`. Este modelo cuenta con gran una gran rapidez y eficiencia en el procesado de datos, al igual que una destacable versatilidad para poder detectar distintos tipos de objetos. A la par de esto, estamos por nuestra propia cuenta, desarrollando una IA desde 0, usando nada más que OpenCV.
 
 Usando este modelo, tendriamos la posibilidad de detectar diversos objetos, con el objetivo de poder avisarle al usuario lo que deberia hacer. Para lograr esto, la I.A deberia ser capaz de detectar objetos tipicos de la calle, los cuales seleccionamos entre los siguientes:
 
