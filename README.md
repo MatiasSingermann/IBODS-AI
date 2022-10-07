@@ -21,6 +21,10 @@ Para ilustrar a lo que me refiero, les presento la siguiente imagen:
 
 Tal como se ve en la imagen, deberiamos ser capaz de poder detectar los objetos que tenemos pensado, con el fin de poder dar las ordenes necesarias. 
 
+## Instrucciones
+
+Ejecutar en la terminal de la raspi el acrhivo `test.py`
+
 ## Fuentes
 
 Para aquellos que quieran obtener mas informacion y un informe mas detallado del funcionamiento de yolov5, les dejo el siguiente material:
