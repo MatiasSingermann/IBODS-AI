@@ -6,14 +6,13 @@ El funcionamiento de este modelo de inteligencia artificial se basa en el modelo
 
 Usando este modelo, tendriamos la posibilidad de detectar diversos objetos, con el objetivo de poder avisarle al usuario lo que deberia hacer. Para lograr esto, la I.A deberia ser capaz de detectar objetos tipicos de la calle, los cuales seleccionamos entre los siguientes:
 
-- Arboles
-- Postes de luz
-- Semaforos peatonales
+- Escalones
+- Personas
+- Vehículos (Autos, bicicletas y motos)
 - Cruces de calle
 - Pozos
-- Personas
-- Vehiculos
-- Escalones
+- Semaforos peatonales
+- Cordones de calle
 
 Para ilustrar a lo que me refiero, les presento la siguiente imagen:
 
