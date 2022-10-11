@@ -2,7 +2,7 @@
 
 ## Funcionamiento
 
-El funcionamiento de este modelo de inteligencia artificial se basa en el modelo previamente creado `yolov5`. Este modelo cuenta con gran una gran rapidez y eficiencia en el procesado de datos, al igual que una destacable versatilidad para poder detectar distintos tipos de objetos. A la par de esto, estamos por nuestra propia cuenta, desarrollando una IA desde 0, usando nada más que OpenCV.
+El funcionamiento de este modelo de inteligencia artificial se basa en el modelo de `EfficientDet0`, familia de los modelos `EfficientNet`. 
 
 Usando este modelo, tendriamos la posibilidad de detectar diversos objetos, con el objetivo de poder avisarle al usuario lo que deberia hacer. Para lograr esto, la I.A deberia ser capaz de detectar objetos tipicos de la calle, los cuales seleccionamos entre los siguientes:
 
@@ -14,9 +14,17 @@ Usando este modelo, tendriamos la posibilidad de detectar diversos objetos, con 
 - Semaforos peatonales
 - Cordones de calle
 
-Para ilustrar a lo que me refiero, les presento la siguiente imagen:
+Para ilustrar a lo que me refiero, esta es un ejemplo de imagen que reciba la inteligencia artificial y que necesite detectar los objetos pertinentes.
 
-![Imagen de referencia](https://learn.alwaysai.co/hs-fs/hubfs/object-dectection-4-2.jpg?width=900&height=569&name=object-dectection-4-2.jpg)
+**INPUT IMAGE**
+
+![Input Image](https://user-images.githubusercontent.com/101400526/195096876-939e9341-dd66-4a15-a491-e04f52f2259c.png)
+
+Aca estarian los resultados de como detectaria la IA los objetos, con sus respectivos porcentajes sobre la seguridad que tiene sobre la presencia de estos objetos.
+
+**OUTPUT IMAGE**
+
+![Ouput Image](https://user-images.githubusercontent.com/101400526/195097920-12c099f8-63a3-47dc-b48c-3eacf4b9495b.png)
 
 Tal como se ve en la imagen, deberiamos ser capaz de poder detectar los objetos que tenemos pensado, con el fin de poder dar las ordenes necesarias. 
 
