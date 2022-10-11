@@ -14,7 +14,7 @@ MODEL_NAME = config.MODEL_NAME
 DETECTION_THRESHOLD = 0.3
 
 # Change the test file path to your test image
-INPUT_IMAGE_PATH = 'IBODS_LBL-1/test/Audi_A7_2012_59_18_310_30_6_75_55_195_18_AWD_4_4_4dr_aqB_jpg.rf.2cdf87614d0d1c937d1e97bbdd338b2c.jpg'
+INPUT_IMAGE_PATH = 'IBODS_LBL.voc/test/c3_p1_15_jpg.rf.9d791a49833a0a21c8d9257f3f3e2520.jpg'
 
 im = Image.open(INPUT_IMAGE_PATH)
 im.thumbnail((512, 512), Image.ANTIALIAS)
@@ -34,3 +34,4 @@ detection_result_image = run_odt_and_draw_results(
 
 # Show the detection result
 img = Image.fromarray(detection_result_image)
+img.save(f'{cwd}/result/ouput.png')
