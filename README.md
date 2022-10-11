@@ -4,6 +4,22 @@
 
 El funcionamiento de este modelo de inteligencia artificial se basa en el modelo de `EfficientDet0`, familia de los modelos `EfficientNet`. 
 
+Estos son los distintos modelos de EfficientDet, notamas que mientras mayor es la precision, mas pesado y lento es el modelo.
+
+| Model architecture | Size(MB)* | Latency(ms)** | Average Precision*** |
+| ------------------ | --------- | ------------------ | --------- |
+| EfficientDet-Lite0  | 4.4 | 37 | 25.69% |
+| EfficientDet-Lite1  | 5.8 | 49 | 30.55% |
+| EfficientDet-Lite2  | 7.2 | 69 | 33.97% |
+| EfficientDet-Lite3  | 11.4 | 116 | 37.70% |
+| EfficientDet-Lite4  | 19.9 | 260 | 41.96% |
+
+(*) *Size of the integer quantized models.*
+
+(**) *Latency measured on Pixel 4 using 4 threads on CPU.*
+
+(***) *Average Precision is the mAP (mean Average Precision) on the COCO 2017 validation dataset.*
+
 Usando este modelo, tendriamos la posibilidad de detectar diversos objetos, con el objetivo de poder avisarle al usuario lo que deberia hacer. Para lograr esto, la I.A deberia ser capaz de detectar objetos tipicos de la calle, los cuales seleccionamos entre los siguientes:
 
 - Escalones
@@ -34,16 +50,9 @@ Ejecutar en la terminal de la raspi el acrhivo `test.py`
 
 ## Fuentes
 
-Para aquellos que quieran obtener mas informacion y un informe mas detallado del funcionamiento de yolov5, les dejo el siguiente material:
+Para aquellos que quieran obtener mas informacion y un informe mas detallado del funcionamiento de todo el proyecto, les dejo el siguiente material
 
-[Official yolov5 Git](https://github.com/ultralytics/yolov5)
-
-[yolov5 Data](https://www.v7labs.com/blog/yolo-object-detection)
-
-[yolov5 Data](https://www.section.io/engineering-education/introduction-to-yolo-algorithm-for-object-detection/)
-
-[yolov5 Data](https://medium.com/analytics-vidhya/yolo-explained-5b6f4564f31)
-
+https://docs.google.com/document/d/1mwpc2iAVPkO-ZTgS3Kg5jJp_Yd80aTJYRnWdDrSZ-cQ/edit?usp=sharing
 
 
 
