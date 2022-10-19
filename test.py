@@ -14,7 +14,7 @@ MODEL_NAME = config.MODEL_NAME
 DETECTION_THRESHOLD = 0.3
 
 # Change the test file path to your test image
-INPUT_IMAGE_PATH = 'IBODS_LBL.voc/test/c3_p1_15_jpg.rf.9d791a49833a0a21c8d9257f3f3e2520.jpg'
+INPUT_IMAGE_PATH = 'IBODS_LBL.voc/test/heon_IMG_0685_JPG_jpg.rf.cd500306853d7810fc4473f8e74bed47.jpg' 
 
 im = Image.open(INPUT_IMAGE_PATH)
 im.thumbnail((512, 512), Image.ANTIALIAS)
